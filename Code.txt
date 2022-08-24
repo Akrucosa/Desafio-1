@@ -1,0 +1,45 @@
+//* Se requiere contraseña para inciar sesión
+let password = "abc123"
+let trys = 5
+let contrasena = prompt ("Ingrese contraseña:")
+if (contrasena === password) {
+    alert=("Contraseña correcta. ¡Bienvenido!");
+}
+    else (if contrasena != password) {
+        trys = trys - 1}
+        if (trys<1){
+            alert("Usuario bloqueado")
+        }
+    }
+  
+
+//Así quedó
+
+//* Se solicita contraseña para inciar sesión
+let password = "abc123"
+
+let contrasena = prompt ("Ingrese contraseña:")
+
+if (contrasena == password) {
+    alert ("Contraseña correcta. ¡Bienvenido!");
+
+    }
+
+else if (contrasena !== password) {
+    alert ("Contraseña incorrecta.")
+    
+    }
+
+    }
+    alert = ("Intento fallido. Quedan "&trys&" intentos")
+
+
+//Condicional
+let num1 = prompt ("Número 1:")
+let num2 = prompt ("Número 2:")
+if (num1 === num2) {
+    alert ("Son iguales")
+} else if (num1 != num2) {
+    alert ("Son diferentes")
+}
+}
